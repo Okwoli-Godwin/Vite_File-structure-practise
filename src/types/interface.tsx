@@ -42,3 +42,20 @@ export interface iCard {
     setUserName?: React.Dispatch<React.SetStateAction<string>>
 }
     
+export interface iInput {
+    inputTitle?: string;
+    inputTitle1?: string;
+    inputTitle2?: string;
+    request?: boolean;
+    sign?: boolean;
+
+    email?: string;
+    password?: string;
+    userName?: string;
+
+    onChange?: React.ChangeEventHandler<HTMLInputElement>;
+
+    setEmail?: React.Dispatch<React.SetStateAction<string>>
+    setPassword?: React.Dispatch<React.SetStateAction<string>>
+    setUserName?: React.Dispatch<React.SetStateAction<string>>
+}
