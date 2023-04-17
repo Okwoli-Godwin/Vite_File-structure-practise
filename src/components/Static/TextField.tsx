@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import { iText } from '../../types'
 
 
-const TextField = () => {
+const TextField: React.FC<any> = ({textTitle, message, remake}) => {
   return (
       <div>
           <Main>
-              <Text1></Text1>
-              <Text2></Text2>
-              <Text3></Text3>
+              <Text1>{ textTitle}</Text1>
+              <Text2>{ message}</Text2>
+              <Text3>{ remake}</Text3>
           </Main>
       </div>
   )
