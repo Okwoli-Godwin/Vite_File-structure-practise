@@ -68,3 +68,9 @@ export interface iGlobal {
     setPassword?: React.Dispatch<React.SetStateAction<string>>
     setUserName?: React.Dispatch<React.SetStateAction<string>>
 }
+
+export interface iText {
+    textTitle?: string;
+    message?: string;
+    remake?: string;
+}
