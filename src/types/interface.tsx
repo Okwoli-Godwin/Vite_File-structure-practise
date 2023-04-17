@@ -59,3 +59,12 @@ export interface iInput {
     setPassword?: React.Dispatch<React.SetStateAction<string>>
     setUserName?: React.Dispatch<React.SetStateAction<string>>
 }
+
+export interface iGlobal {
+    email?: string;
+    password?: string;
+    userName?: string;
+    setEmail?: React.Dispatch<React.SetStateAction<string>>
+    setPassword?: React.Dispatch<React.SetStateAction<string>>
+    setUserName?: React.Dispatch<React.SetStateAction<string>>
+}
